@@ -9,12 +9,11 @@
     font-family: var(--fontFamily);
     font-weight: bold;
     line-height: 2rem;
-    border: solid 1px;
 }
 
 .template__img{
     max-width: 50%;
-    height: 700px;
+    height: 750px;
 }
 
 .template__article-area{
