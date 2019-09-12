@@ -12,16 +12,15 @@
 }
 
 .template__img{
+    position: relative;
     max-width: 50%;
     height: 750px;
+    object-fit: cover;
 }
 
 .template__article-area{
     max-width: 50%;
 
-}
-.template__heading_color{
-    color: #fb26ca;
 }
 
 .template__small-heading{
@@ -45,4 +44,17 @@
 .template__medium-heading{
     margin: 0 5rem;
     text-align: left;
+}
+
+.template__heading_color{
+    color: #fb26ca;
+}
+
+.template_heart{
+    position: absolute;
+    z-index: 10;
+    color: #fb26ca;
+    font-size: 2rem;
+    bottom: 5px;
+    left: 100px;
 }
